@@ -106,3 +106,14 @@ deploy:
   type: git
   repo: git@github.com:L1468999760/Hexo.git
   branch: master
+
+# flowchart使用 hexo-filter-flowchart https://github.com/bubkoo/hexo-filter-flowchart
+flowchart:
+  raphael: "https://cdnjs.cloudflare.com/ajax/libs/raphael/2.3.0/raphael.min.js"  # optional, the source url of raphael.js
+  flowchart: "https://cdnjs.cloudflare.com/ajax/libs/flowchart/1.17.1/flowchart.min.js" # optional, the source url of flowchart.js
+  options: # options used for `drawSVG`
+    scale: 1
+    line-width: 2
+    line-length: 50
+    text-margin: 10
+    font-size: 12
