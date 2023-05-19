@@ -12,6 +12,10 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-html-minifier-terser": "^7.1.0",
+    "gulp-uglify-es": "^3.0.0",
     "hexo": "^6.3.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-filter-mermaid-diagrams": "^1.0.5",
