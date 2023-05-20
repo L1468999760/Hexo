@@ -94,10 +94,13 @@
             r()
     } (window, document);
 </script>
-
+ 
+<!-- 地球1 -->
+<!--
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=voaBwFatK1ngdNK_tDqh9B-2QCKb9YsNIT7wV1rtiZI"></script>
+-->
 
-<!-- 地球 -->
+<!-- 地球2 -->
 <!-- 
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=53b96nvlw2y&amp;m=0&amp;c=00fff6&amp;cr1=007eff&amp;f=arial&amp;l=33&amp;s=170" async="async"></script>
 -->
