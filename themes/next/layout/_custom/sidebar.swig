@@ -95,7 +95,10 @@
     } (window, document);
 </script>
  
+ <!-- 2d map -->
+ <!--
  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=voaBwFatK1ngdNK_tDqh9B-2QCKb9YsNIT7wV1rtiZI&cl=ffffff&w=a"></script>
+ -->
 
 <!-- 地球1 -->
 <!--
