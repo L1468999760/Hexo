@@ -95,6 +95,8 @@
     } (window, document);
 </script>
  
+ <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=voaBwFatK1ngdNK_tDqh9B-2QCKb9YsNIT7wV1rtiZI&cl=ffffff&w=a"></script>
+
 <!-- 地球1 -->
 <!--
 <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=voaBwFatK1ngdNK_tDqh9B-2QCKb9YsNIT7wV1rtiZI"></script>
