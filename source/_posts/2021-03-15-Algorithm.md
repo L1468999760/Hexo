@@ -9,8 +9,6 @@ categories:
 description: 算法模板，长期更新。
 ---
 
-> https://visualgo.net/zh
-
 > 一个数据结构与算法可视化网站：https://visualgo.net/zh
 
 ## Kruskal（并查集实现）
