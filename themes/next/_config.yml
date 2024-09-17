@@ -177,13 +177,14 @@ site_state: true
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
+# Icon: https://www.thinkcmf.com/font_awesome.html
 social:
   GitHub: https://github.com/L1468999760 || fab fa-github
   我的邮箱: mailto:1468999760@qq.com || fa fa-envelope
   CSDN: https://blog.csdn.net/Reticent_Man || fas fa-book
   我的云盘: https://cloud.lijinning.top || fa fa-cloud
   ChatGPT: https://chatgpt.lijinning.top || fa fa-user-circle
-  代码翻译: http://code-translator.lijinning.top || fas fa-code
+  访问统计: https://traffic.lijinning.top/share/KwGXkkr2iSRut8b4/blog.lijinning.top || fa fa-bar-chart-o
   #GitHub: https://github.com/yourname || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
