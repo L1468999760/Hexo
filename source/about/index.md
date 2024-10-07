@@ -14,13 +14,11 @@ updated: 2024-10-08T22:1:35.606+8:0
 
 **为什么写博客**
 
+正如Apache Storm作者Nathan Marz所说：
+
   > [You should blog even if you have no readers](http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html)
 
-  正如Apache Storm作者Nathan Marz所说：
-
-+ 写作让你成为一个更好的读者
-+ 写作让你更聪明
-+ 写作可以带来一些附加价值：个人影响力等
+写博客是对过去的总结，也是一种生活态度！
 
 <div style="display:none">
 
