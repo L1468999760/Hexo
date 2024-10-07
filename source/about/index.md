@@ -3,7 +3,7 @@ comments: false
 date: '2022-01-01T00:00:00+08:00'
 title: 关于
 type: user
-updated: 2023-9-23T22:1:35.606+8:0
+updated: 2024-10-08T22:1:35.606+8:0
 ---
 ## 个人介绍
 
@@ -11,9 +11,16 @@ updated: 2023-9-23T22:1:35.606+8:0
 - 职业：后端开发工程师
 - 现居：北京
 - 技术栈：Java/Mysql/Redis
-- 兴趣：魔方、读书、游戏
 
-  写博客只是在记录自己每日的收获，分享出来也是对于自己平时记录的一个总结！
+**为什么写博客**
+
+  > [You should blog even if you have no readers](http://nathanmarz.com/blog/you-should-blog-even-if-you-have-no-readers.html)
+
+  正如Apache Storm作者Nathan Marz所说：
+
++ 写作让你成为一个更好的读者
++ 写作让你更聪明
++ 写作可以带来一些附加价值：个人影响力等
 
 <div style="display:none">
 

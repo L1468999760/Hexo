@@ -929,7 +929,7 @@ vendors:
 
   # Medium-zoom
   # mediumzoom: //cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js
-  mediumzoom:
+  mediumzoom: //cdn.bootcdn.net/ajax/libs/medium-zoom/1.0.6/medium-zoom.min.js
 
   # Lazyload
   # lazyload: //cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js
