@@ -1414,3 +1414,23 @@ gcd(\frac{a-b}{2},b) &,both\ a\ and\ b\ are\ odd  \\
 
 > 参考https://zhuanlan.zhihu.com/p/553890800
 
+## 有序数组中的单一元素
+
+二分法。有序数组中的相同元素一定相邻。
+
+分界点性质：
+
++ 对于下标x的左边下标y，如果nums[y]=nums[y+1]，则y一定是偶数
++ 对于下标x的右边下标z，如果nums[z]=nums[z+1]，则z一定是奇数
+
+比较条件：
+
++ 如果mid是偶数，则比较nums[mid]和nums[mid+1]是否相等
++ 如果mid是奇数，则比较nums[mid-1]和nums[mid]是否相等
+
+相邻数获取：
+
++ 当mid是偶数时，mid+1=(mid^1)
++ 当mid是奇数时，mid-1=(mid^1)
+
+时间复杂度`O(logn)`。
