@@ -33,6 +33,8 @@ custom_file_path:
   variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   style: source/_data/styles.styl
+  # 在页面body末尾添加引用
+  custom: themes/next/layout/_custom/custom.swig 
 
 
 # ---------------------------------------------------------------

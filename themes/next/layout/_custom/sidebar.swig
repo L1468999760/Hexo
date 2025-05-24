@@ -110,3 +110,80 @@
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=53b96nvlw2y&amp;m=0&amp;c=00fff6&amp;cr1=007eff&amp;f=arial&amp;l=33&amp;s=170" async="async"></script>
 -->
 
+<!-- Coze插件 -->
+<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.6/libs/cn/index.js"></script>
+<script>
+  new CozeWebSDK.WebChatClient({
+    config: {
+      bot_id: '7508085501103521826',
+    },
+    componentProps: {
+      title: 'Coze',
+    },
+    auth: {
+      type: 'token',
+      token: 'pat_MwaC1EheBGq4Nnkse8V24ZXLb68T4t2FYk5b8MMelrKDY93dXjVFJQTNlYK4XohJ',
+      onRefreshToken: function () {
+        return 'pat_MwaC1EheBGq4Nnkse8V24ZXLb68T4t2FYk5b8MMelrKDY93dXjVFJQTNlYK4XohJ'
+      }
+    },
+    userInfo: { 
+    id: 'user', 
+    url: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png', 
+    nickname: '访客', 
+  }, 
+  ui: { 
+    /**
+    * The ui.base parameter is used to add the overall UI effect of the chat window.
+    * @param base.icon - Application icon URL.
+    * @param base.layout - Layout style of the agent chat box window, which can be set as 'pc' or'mobile'.
+    * @param base.lang - System language of the agent, which can be set as 'en' or 'zh-CN'.
+    * @param base.zIndex - The z-index of the chat box.
+    */
+    base: { 
+      icon: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png', 
+      layout: 'pc', 
+      lang: 'en',
+      zIndex: 1000, 
+    },
+    /**
+    * Control the UI and basic capabilities of the chat box.
+    * @param chatBot.title - The title of the chatbox
+    * @param chatBot.uploadable - Whether file uploading is supported.
+    * @param chatBot.width - The width of the agent window on PC is measured in px, default is 460.
+    * @param chatBot.el - Container for setting the placement of the chat box (Element).
+    */
+    chatBot: {
+      title: '宁小助',
+      uploadable: true,
+      width: 390
+    }, 
+    /**
+    * Controls whether to display the floating ball at the bottom right corner of the page.
+    */
+    asstBtn: { 
+      isNeed: true, 
+    }, 
+    /**
+    * The ui.footer parameter is used to add the footer of the chat window.
+    * @param footer.isShow - Whether to display the bottom copy module.
+    * @param footer.expressionText - The text information displayed at the bottom.
+    * @param footer.linkvars - The link copy and link address in the footer.
+    */
+    footer: { 
+      isShow: true, 
+      expressionText: 'Powered by lookonce', 
+      linkvars: { 
+        name: { 
+          text: 'A', 
+          link: 'https://www.test1.com' 
+        }, 
+        name1: { 
+          text: 'B', 
+          link: 'https://www.test2.com' 
+        } 
+      } 
+    } 
+  }
+  });
+</script>
