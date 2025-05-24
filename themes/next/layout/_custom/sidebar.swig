@@ -143,8 +143,8 @@
     base: { 
       icon: 'https://lf-coze-web-cdn.coze.cn/obj/coze-web-cn/obric/coze/favicon.1970.png', 
       layout: 'pc', 
-      lang: 'en',
-      zIndex: 1000, 
+      lang: 'zh-CN',
+      zIndex: 800, 
     },
     /**
     * Control the UI and basic capabilities of the chat box.
@@ -156,7 +156,7 @@
     chatBot: {
       title: '宁小助',
       uploadable: true,
-      width: 390
+      width: 350
     }, 
     /**
     * Controls whether to display the floating ball at the bottom right corner of the page.
