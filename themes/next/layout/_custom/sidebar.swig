@@ -110,8 +110,9 @@
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=53b96nvlw2y&amp;m=0&amp;c=00fff6&amp;cr1=007eff&amp;f=arial&amp;l=33&amp;s=170" async="async"></script>
 -->
 
+
 <!-- Coze插件 -->
-<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.6/libs/cn/index.js"></script>
+<script src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.8/libs/cn/index.js"></script>
 <script>
   new CozeWebSDK.WebChatClient({
     config: {
@@ -156,7 +157,9 @@
     chatBot: {
       title: '宁小助',
       uploadable: true,
-      width: 350
+      // 没有设置el时才生效
+      width: 350,
+      el: undefined
     }, 
     /**
     * Controls whether to display the floating ball at the bottom right corner of the page.
@@ -164,6 +167,11 @@
     asstBtn: { 
       isNeed: true, 
     }, 
+    header: {
+          isShow: true,
+          isNeedClose: true,
+    },
+
     /**
     * The ui.footer parameter is used to add the footer of the chat window.
     * @param footer.isShow - Whether to display the bottom copy module.
