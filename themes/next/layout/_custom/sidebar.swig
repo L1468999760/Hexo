@@ -123,9 +123,9 @@
     },
     auth: {
       type: 'token',
-      token: 'pat_MwaC1EheBGq4Nnkse8V24ZXLb68T4t2FYk5b8MMelrKDY93dXjVFJQTNlYK4XohJ',
+      token: '{{process.env.COZE_TOKEN}}',
       onRefreshToken: function () {
-        return 'pat_MwaC1EheBGq4Nnkse8V24ZXLb68T4t2FYk5b8MMelrKDY93dXjVFJQTNlYK4XohJ'
+        return '{{process.env.COZE_TOKEN}}'
       }
     },
     userInfo: { 
