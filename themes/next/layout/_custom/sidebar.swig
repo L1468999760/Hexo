@@ -123,9 +123,9 @@
     },
     auth: {
       type: 'token',
-      token: 'pat_V6V6LSRSwfTsvMDaDJ6uHljMjkqXq7U0ILDGoOcjnTQ9hVrnK2VTNMUbprU4EKKf',
+      token: 'sat_fLTwKRSOxeZfd8nNYQWRVTfUp8dOmWK30cd1N4ZFuOS42IifpBEtwQVf285dKSpD',
       onRefreshToken: function () {
-        return 'pat_V6V6LSRSwfTsvMDaDJ6uHljMjkqXq7U0ILDGoOcjnTQ9hVrnK2VTNMUbprU4EKKf'
+        return 'sat_fLTwKRSOxeZfd8nNYQWRVTfUp8dOmWK30cd1N4ZFuOS42IifpBEtwQVf285dKSpD'
       }
     },
     userInfo: { 
